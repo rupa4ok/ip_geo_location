@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App;
 
-class ApiGeoLocationLocator implements Locator
+class IpInfoLocator implements Locator
 {
     private $client;
     private $apiKey;

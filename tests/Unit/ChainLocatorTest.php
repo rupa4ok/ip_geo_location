@@ -22,7 +22,7 @@ class ChainLocatorTest extends TestCase
             $this->mockLocator(null),
             $this->mockLocator($expexted = new Location('Other')),
         ];
-        
+
         $locator = new ChainLocator(...$locators);
         $actual = $locator->locate(new Ip('8.8.8.8'));
         
