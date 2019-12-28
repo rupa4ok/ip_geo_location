@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfa5fd84-5f74-4692-9db7-e58a129689a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacheLocator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ChainLocatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ChainLocatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IpGeoLocationLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IpGeoLocationLocator.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="manager-php-fpm">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
@@ -65,8 +65,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bkt_platform/docker-compose.yml" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -104,7 +104,8 @@
       <workItem from="1577449305787" duration="4518000" />
       <workItem from="1577533969018" duration="45000" />
       <workItem from="1577534029661" duration="6233000" />
-      <workItem from="1577553444079" duration="2216000" />
+      <workItem from="1577553444079" duration="3397000" />
+      <workItem from="1577557282357" duration="449000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitignore">
       <created>1577534081262</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577555123035</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add cache locator">
+      <created>1577556279850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577556279850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,13 +169,15 @@
     <MESSAGE value="Add locator interface" />
     <MESSAGE value="Add ChainLocator" />
     <MESSAGE value="Add error handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add error handler" />
+    <MESSAGE value="Add cache locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cache locator" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="576" y="210" width="824" height="684" key="#CLI_Interpreters" timestamp="1577449436946">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="579" y="255" width="823" height="851" key="#CLI_Interpreters" timestamp="1577557683568">
+      <screen x="71" y="73" width="1849" height="1047" />
     </state>
     <state x="576" y="210" width="824" height="684" key="#CLI_Interpreters/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577449436946" />
+    <state x="579" y="255" width="823" height="851" key="#CLI_Interpreters/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577557683568" />
     <state x="784" y="285" width="412" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1577555452287">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
@@ -177,27 +187,47 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577452503598" />
-    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2" timestamp="1577555121762">
+    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2" timestamp="1577556279464">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
-    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577555121762" />
+    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577556279464" />
+    <state x="821" y="524" width="319" height="254" key="DockerComposeFileDialog" timestamp="1577557652244">
+      <screen x="71" y="73" width="1849" height="1047" />
+    </state>
+    <state x="821" y="524" width="319" height="254" key="DockerComposeFileDialog/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577557652244" />
+    <state x="657" y="352" key="FileChooserDialogImpl" timestamp="1577557650760">
+      <screen x="71" y="73" width="1849" height="1047" />
+    </state>
+    <state x="657" y="352" key="FileChooserDialogImpl/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577557650760" />
+    <state x="544" y="342" width="893" height="510" key="NewPhpClassDialog" timestamp="1577557067334">
+      <screen x="71" y="73" width="1849" height="1047" />
+    </state>
+    <state x="544" y="342" width="893" height="510" key="NewPhpClassDialog/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577557067334" />
     <state x="791" y="521" width="399" height="196" key="NewPhpFileDialog" timestamp="1577555374560">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577452405132" />
     <state x="791" y="521" width="399" height="196" key="NewPhpFileDialog/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577555374560" />
-    <state x="485" y="212" width="1344" height="908" key="SettingsEditor" timestamp="1577534061674">
+    <state x="171" y="155" width="1682" height="908" key="SettingsEditor" timestamp="1577557730778">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577449443896" />
-    <state x="485" y="212" width="1344" height="908" key="SettingsEditor/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577534061674" />
+    <state x="171" y="155" width="1682" height="908" key="SettingsEditor/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577557730778" />
     <state x="490" y="267" width="1000" height="660" key="Vcs.Push.Dialog.v2" timestamp="1577542607705">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
     <state x="490" y="267" width="1000" height="660" key="Vcs.Push.Dialog.v2/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577542607705" />
+    <state x="639" y="275" width="736" height="671" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1577557702481">
+      <screen x="71" y="73" width="1849" height="1047" />
+    </state>
+    <state x="639" y="275" width="736" height="671" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577557702481" />
     <state x="171" y="171" width="1649" height="849" key="dock-window-1" timestamp="1577539122402">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
     <state x="171" y="171" width="1649" height="849" key="dock-window-1/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577539122402" />
+    <state x="677" y="147" width="626" height="900" key="refactoring.ChangeSignatureDialog" timestamp="1577556519929">
+      <screen x="71" y="73" width="1849" height="1047" />
+    </state>
+    <state x="677" y="147" width="626" height="900" key="refactoring.ChangeSignatureDialog/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577556519929" />
   </component>
 </project>

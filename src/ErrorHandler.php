@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace App;
 
+use Psr\Log\LoggerInterface;
+
 class ErrorHandler
 {
     private $logger;
     
-    public function __construct(Logger $logger)
+    public function __construct(LoggerInterface $logger)
     {
         $this->logger = $logger;
     }

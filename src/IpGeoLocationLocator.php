@@ -9,7 +9,7 @@ class IpGeoLocationLocator implements Locator
     private $client;
     private $apiKey;
     
-    public function __construct(HttpClient $client, string $apiKey = '6b19f7a24fa749d183617586a80dd462')
+    public function __construct(HttpClientInterface $client, string $apiKey = '6b19f7a24fa749d183617586a80dd462')
     {
         $this->client = $client;
         $this->apiKey = $apiKey;
