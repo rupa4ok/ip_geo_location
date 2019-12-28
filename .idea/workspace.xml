@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfa5fd84-5f74-4692-9db7-e58a129689a3" name="Default Changelist" comment="Add ChainLocator">
-      <change afterPath="$PROJECT_DIR$/src/ErrorHandler.php" afterDir="false" />
+    <list default="true" id="bfa5fd84-5f74-4692-9db7-e58a129689a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CacheLocator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiGeoLocationLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IpGeoLocationLocator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiInfoLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IpInfoLocator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChainLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainLocator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/ChainLocatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ChainLocatorTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,16 +65,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Unit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/tests/Unit" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/Unit" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -106,7 +104,7 @@
       <workItem from="1577449305787" duration="4518000" />
       <workItem from="1577533969018" duration="45000" />
       <workItem from="1577534029661" duration="6233000" />
-      <workItem from="1577553444079" duration="1224000" />
+      <workItem from="1577553444079" duration="2216000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitignore">
       <created>1577534081262</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577540466220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add error handler">
+      <created>1577555123035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577555123035</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,30 +160,32 @@
     <MESSAGE value="Add mock test" />
     <MESSAGE value="Add locator interface" />
     <MESSAGE value="Add ChainLocator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ChainLocator" />
+    <MESSAGE value="Add error handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add error handler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="576" y="210" width="824" height="684" key="#CLI_Interpreters" timestamp="1577449436946">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="576" y="210" width="824" height="684" key="#CLI_Interpreters/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577449436946" />
-    <state x="782" y="240" width="412" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1577452527732">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="784" y="285" width="412" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1577555452287">
+      <screen x="71" y="73" width="1849" height="1047" />
     </state>
     <state x="782" y="240" width="412" height="624" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577452527732" />
+    <state x="784" y="285" key="#com.intellij.ide.util.MemberChooser/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577555452287" />
     <state x="726" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577452503598">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577452503598" />
-    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2" timestamp="1577541714114">
+    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2" timestamp="1577555121762">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
-    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577541714114" />
-    <state x="791" y="521" width="399" height="196" key="NewPhpFileDialog" timestamp="1577554646648">
+    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577555121762" />
+    <state x="791" y="521" width="399" height="196" key="NewPhpFileDialog" timestamp="1577555374560">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577452405132" />
-    <state x="791" y="521" width="399" height="196" key="NewPhpFileDialog/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577554646648" />
+    <state x="791" y="521" width="399" height="196" key="NewPhpFileDialog/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577555374560" />
     <state x="485" y="212" width="1344" height="908" key="SettingsEditor" timestamp="1577534061674">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>

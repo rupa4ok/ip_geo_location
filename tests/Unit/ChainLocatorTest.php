@@ -5,11 +5,9 @@ declare(strict_types=1);
 namespace Test\Unit;
 
 use App\ChainLocator;
-use App\HttpClient;
 use App\Ip;
 use App\Location;
 use App\Locator;
-use Location;
 use PHPUnit\Framework\TestCase;
 
 class ChainLocatorTest extends TestCase
