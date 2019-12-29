@@ -4,8 +4,22 @@
     <list default="true" id="bfa5fd84-5f74-4692-9db7-e58a129689a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErrorHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IpGeoLocationLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IpGeoLocationLocator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/BaseTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/BaseTag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Example.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Param.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Param.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Property.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Property.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyRead.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyRead.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyWrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/PropertyWrite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Return_.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Return_.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Throws.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Throws.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Var_.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Var_.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +67,11 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VZ8YZ7390nr6swgvtbKapwCJvx" />
@@ -105,7 +124,8 @@
       <workItem from="1577533969018" duration="45000" />
       <workItem from="1577534029661" duration="6233000" />
       <workItem from="1577553444079" duration="3397000" />
-      <workItem from="1577557282357" duration="449000" />
+      <workItem from="1577557282357" duration="4996000" />
+      <workItem from="1577606750243" duration="1679000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitignore">
       <created>1577534081262</created>
@@ -156,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577556279850</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add error handler">
+      <created>1577557850883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577557850883</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,9 +195,9 @@
     <MESSAGE value="Add mock test" />
     <MESSAGE value="Add locator interface" />
     <MESSAGE value="Add ChainLocator" />
-    <MESSAGE value="Add error handler" />
     <MESSAGE value="Add cache locator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cache locator" />
+    <MESSAGE value="Add error handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add error handler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="255" width="823" height="851" key="#CLI_Interpreters" timestamp="1577557683568">
@@ -187,10 +214,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1577452503598" />
-    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2" timestamp="1577556279464">
+    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2" timestamp="1577557849949">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
-    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577556279464" />
+    <state x="345" y="102" width="1291" height="989" key="CommitChangelistDialog2/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577557849949" />
+    <state x="602" y="493" width="777" height="208" key="ComposerInitDialogKey" timestamp="1577572931963">
+      <screen x="71" y="73" width="1849" height="1047" />
+    </state>
+    <state x="602" y="493" width="777" height="208" key="ComposerInitDialogKey/71.73.1849.1047/1920.0.1280.1024@71.73.1849.1047" timestamp="1577572931963" />
     <state x="821" y="524" width="319" height="254" key="DockerComposeFileDialog" timestamp="1577557652244">
       <screen x="71" y="73" width="1849" height="1047" />
     </state>
